@@ -3,7 +3,7 @@
 import React from 'react';
 // import heriImage from '../../public/images/heroImage.png';
 import heriImage from '/images/heroImage.png';
-import Select123 from '/Select123';
+import Select123 from './Select123';
 // import bgImage from './hero.png'; // Assuming hero.png is in the same directory as this component
 
 const Herosection = () => {
