@@ -1,7 +1,7 @@
 const Navigation = () => {
   return (
-    <div className="">
-      <nav className=" flex-1 bg-zinc-200  sticky ">
+    <div className="sticky top-0 z-10 bg-zinc-200 " >
+    <nav className=" flex-1">
         <div className="logo ">
           <img
             className="w-36 ml-8 "

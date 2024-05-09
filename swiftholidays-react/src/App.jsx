@@ -1,4 +1,8 @@
 import "./App.css";
+import Aboutsection from './components/Aboutsection';
+import Download from './components/Download';
+import Satisfaction from './components/Satisfaction';
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Herosection from "./components/Herosection";
@@ -25,6 +29,9 @@ function App() {
       </BrowserRouter>
 
       <Herosection />
+      <Aboutsection/>
+      <Satisfaction/>
+      <Download/>
       <Contactentry />
       <Footer />
     </div>

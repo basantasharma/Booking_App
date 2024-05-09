@@ -7,7 +7,7 @@ import Select123 from "./Select123";
 const Herosection = () => {
   return (
     <div
-      className="bg-cover bg-center h-screen opacity-65 attac"
+      className="bg-cover bg-center h-screen opacity-65 bg-fixed"
       style={{ backgroundImage: `url(${heriImage})` }}
     >
       {/* <h2>Your component content</h2> */}
