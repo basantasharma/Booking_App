@@ -12,7 +12,7 @@ const router =  createBrowserRouter([
     },
     {
 
-        path:"/Company Profile",
+        path:"/Company-Profile",
         element:<CompanyProfile/>   
     }
   

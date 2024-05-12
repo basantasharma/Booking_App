@@ -14,11 +14,11 @@ const Navigation = () => {
 
         <div className="flex gap-14 mr-6 items-center">
           
-          <NavLink href="/Home">
+          <NavLink to="/">
             {" "}
             <li>Home </li>
           </NavLink>
-          <NavLink href="/Company Profile">
+          <NavLink to="/Company-Profile">
             <li> Company Profile</li>
           </NavLink>
           
