@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
-import Herosection from "../components/Herosection";
+import Navigation from "../components/HomePages/Navigation";
+import Footer from "../components/HomePages/Footer";
+import Herosection from "../components/HomePages/Herosection";
 
 export default function Home() {
   return (
@@ -11,8 +11,7 @@ export default function Home() {
       className="bg-cover bg-center h-screen opacity-65 bg-fixed"
       style={{ backgroundImage: `url(${heriImage})` }}
     ></div>  */}
-      <Footer/> 
-
+      <Footer />
     </div>
   );
 }

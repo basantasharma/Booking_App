@@ -14,13 +14,15 @@ const Footer = () => {
         {/* Column1 */}
         <div>
           <img
-            className="w-10 h-10 px-20 "
-            src="src/swiftholidayslogo.png"
+            className=" w-auto h-20 px-20 "
+            src="/logos/swiftholidayslogo.png"
             alt="logo"
           />
           <ul className="flex">
             <li className="mr-4">
-              <a href="#" FaFacebookF size={24}></a>
+              <a href="#">
+                <FaFacebookF size={24} />
+              </a>
             </li>
           </ul>
         </div>

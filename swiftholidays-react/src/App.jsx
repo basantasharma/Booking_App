@@ -1,15 +1,15 @@
 import "./App.css";
-import Aboutsection from "./components/Aboutsection";
-import Download from "./components/Download";
-import Satisfaction from "./components/Satisfaction";
+import Aboutsection from "./components/HomePages/Aboutsection";
+import Download from "./components/HomePages/Download";
+import Satisfaction from "./components/HomePages/Satisfaction";
 
-import Herosection from "./components/Herosection";
-import Navigation from "./components/Navigation";
+import Herosection from "./components/HomePages/Herosection";
+import Navigation from "./components/HomePages/Navigation";
 import { RouterProvider } from "react-router-dom";
 // import router from "./router.jsx";
 
-import Footer from "./components/Footer";
-import Contactentry from "./components/Contactentry";
+import Footer from "./components/HomePages/Footer";
+import Contactentry from "./components/HomePages/Contactentry";
 
 function App() {
   return (

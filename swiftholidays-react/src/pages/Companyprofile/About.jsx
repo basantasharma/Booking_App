@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "../../components/Navigation";
+import Navigation from "../../components/HomePages/Navigation";
 import heriImage from "/images/heroImage.png";
-import Footer from "../../components/Footer";
+import Footer from "../../components/HomePages/Footer";
 
 const CompanyProfile = () => {
   return (
