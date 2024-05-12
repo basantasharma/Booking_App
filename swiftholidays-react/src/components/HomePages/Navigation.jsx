@@ -5,7 +5,7 @@ const Navigation = () => {
         <div className="logo ">
           <img
             className="w-36 ml-8 "
-            src="src/swiftholidayslogo.png"
+            src="/logos/swiftholidayslogo.png"
             alt="logo"
           />
         </div>
