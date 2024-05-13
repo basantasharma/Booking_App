@@ -2,17 +2,14 @@ import React from "react";
 import Navigation from "../../components/HomePages/Navigation";
 import heriImage from "/images/heroImage.png";
 import Footer from "../../components/HomePages/Footer";
+import Herosection from "../../components/HomePages/Herosection";
 
 const CompanyProfile = () => {
   return (
     <div>
       <Navigation />
-      <div
-        className="bg-cover bg-center h-screen opacity-65 bg-fixed"
-        style={{ backgroundImage: `url(${heriImage})` }}
-      >
-        <h1 className="text-center text-4xl p-20 font-semibold">About Us</h1>
-      </div>
+      <Herosection  A="About us"/>  
+
       <div>
         <h1 className="font-medium text-3xl text-center p-10">About</h1>
         <section className=" flex  gap-10">
