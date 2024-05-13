@@ -11,6 +11,7 @@ const Footer = () => {
   return (
     <>
       <div className="flex flex-cols-4 justify-around gap-10 items-center">
+        
         {/* Column1 */}
         <div>
           <img

@@ -10,12 +10,15 @@ import { RouterProvider } from "react-router-dom";
 
 import Footer from "./components/HomePages/Footer";
 import Contactentry from "./components/HomePages/Contactentry";
+import Select123 from "./components/HomePages/Select123";
+import Form12 from "./components/Form12";
 
 function App() {
   return (
     <>
       <Navigation />
-      <Herosection />
+
+      <Herosection formsection={<Select123 />} />
       <Aboutsection />
       <Satisfaction />
       <Download />
