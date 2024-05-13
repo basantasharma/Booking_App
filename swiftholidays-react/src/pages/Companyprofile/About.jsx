@@ -8,7 +8,7 @@ const CompanyProfile = () => {
   return (
     <div>
       <Navigation />
-      <Herosection  A="About us"/>  
+      <Herosection  name="About us"/>  
 
       <div>
         <h1 className="font-medium text-3xl text-center p-10">About</h1>
