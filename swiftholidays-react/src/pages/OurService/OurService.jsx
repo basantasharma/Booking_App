@@ -12,7 +12,7 @@ const OurService = () => {
         <h1 className="font-bold text-3xl text-center p-10  font-sans  ">
           What We Do
         </h1>
-        <p className="container px-20 text-xl">
+        <p className="container px-20 text-xl text-justify " >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quo
           minus sit, velit odit necessitatibus animi culpa eveniet nesciunt
           repellat. Saepe ducimus tempora dolore modi corporis sequi cum debitis
@@ -29,7 +29,8 @@ const OurService = () => {
         <h1 className="font-bold text-3xl text-center font-sans p-10 ">
           A brief list of our services
         </h1>
-        <ul className="text-xl font-sans  container list-disc px-20 ">
+        <div className="">
+        <ul className="text-xl font-sans  container list-disc px-20 text-justify ">
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
             quo minus sit
@@ -45,12 +46,13 @@ const OurService = () => {
             tempora, possimus
           </li>
         </ul>
+        </div>
       </div>
       <div>
         <h1 className="font-bold text-3xl p-10 text-center ">
           How We Are Different
         </h1>
-        <p className="text-xl container px-20 py-4">
+        <p className="text-xl container px-20 py-4 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quis
           magnam voluptate iste dignissimos soluta officiis cupiditate eius
           incidunt, beatae exercitationem libero molestias illo a velit sunt
