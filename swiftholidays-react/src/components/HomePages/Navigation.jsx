@@ -1,17 +1,17 @@
 import{Link} from 'react-router-dom';
 const Navigation = () => {
   return (
-    <div className="sticky top-0 z-10 bg-zinc-200  ">
+    <div className="sticky top-0 z-10 bg-gray-950  ">
       <nav className=" flex justify-around items-center">
         <div className="logo  ">
           <img
-            className="w-36 ml-8 "
+            className="w-36 ml-8  "
             src="/logos/swiftholidayslogo.png"
             alt="logo"
           />
         </div>
 
-        <ul className="flex   gap-14  mr-6  ">
+        <ul className="flex   gap-14  mr-6 text-white  ">
           <li ><Link to="/">Home</Link></li>
           <li><Link to="/company-profile">Company Profile</Link></li>
           <li><Link to="/our-services">Our Service</Link></li>
