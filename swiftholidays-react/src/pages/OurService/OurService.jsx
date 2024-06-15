@@ -21,7 +21,7 @@ const OurService = () => {
           itaque, minima minus omnis, ullam, commodi dicta a dolores placeat
           earum. Laboriosam, sunt enim? Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Suscipit laborum ipsam nam autem earum nesciunt quos
-          dolorem sunt tempora, possimus illum at mollitia similique saepe,
+          dolorem sunt ttaiempora, possimus illum at mollitia similique saepe,
           voluptates expedita officiis laudantium libero!
         </p>
       </div>

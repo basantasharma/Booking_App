@@ -4,7 +4,7 @@ import bgImage from "/images/download.jpg";
 const Download = () => {
   return (
     <div
-      className="bg-cover bg-center h-screen opacity-75"
+      className="bg-cover bg-center  bg-fixed h-screen opacity-75"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="grid grid-cols-2">
