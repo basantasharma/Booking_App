@@ -18,8 +18,9 @@ const Herosection = (props) => {
       <div>{props.formsection}</div>
 
       {/* <h2>Your component content</h2> */}
-      {/* <Select123 /> */}
-    </div>
+
+      
+      {/* <Select123 /> */}    </div>
   );
 };
 export default Herosection;

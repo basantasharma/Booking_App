@@ -11,7 +11,6 @@ const Footer = () => {
   return (
     <>
       <div className="flex flex-cols-4 justify-around gap-10 items-center">
-        
         {/* Column1 */}
         <div>
           <img
@@ -45,17 +44,17 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
           <div className="flex flex-row p-1 gap-2 m-2">
             <FaMapMarkerAlt size={18} />
-            <p>khusibu Linkroad, Kathmandu 44600</p>
+            <p>Bharatpur-1,Pulchowk,Narayangarh</p>
           </div>
           <hr />
           <div className="flex flex-row p-2 gap-2 m-2">
             <FaPhone size={18} />
-            <p>+977 9851310236/37/38/39</p>
+            <p>+977-9761623530,9702028321</p>
           </div>
           <hr />
           <div className="flex flex-row p-2 gap-2 m-2">
             <FaEnvelope size={18} />
-            <p>swiftholidaysnepal@gmail.com</p>
+            <p>info@astavisioninfosys.com</p>
           </div>
         </div>
 
@@ -69,7 +68,7 @@ const Footer = () => {
             className="w-[180px] h-auto"
             alt="image"
           />
-          <p> Kunwar I.T. And Design Pvt.Ltd.</p>
+          <p>Astavision Infosys Pvt. Ltd.</p>
           <p className="text-lg font-semibold m-4">Payment Partner </p>
           <img
             src="https://swiftholidays.com.np/images/payment.jpg"

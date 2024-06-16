@@ -8,30 +8,30 @@ const Contactentry = () => {
     <div>
       <div className="flex flex-cols-2 justify-around px-4">
         <div className="px-10 ">
-          <form action="#" method="post" className="py-4">
-            <h1 className=" block text-lg font-bold mb-2 pb-2 mx-2 item-center">
+          <form action="#" method="post" className="py-4 space-y-4">
+            <h1 className=" block text-lg font-bold mb-2 pb-2 mx-2 text-center">
               Contact Swift Holidays
               {/* {props.name} */}
             </h1>
             <input
               type="text"
               placeholder="FullName"
-              className=" w-1/8 rounded-xl py-2 ring-2 ring-gray-300 focus:ring-2 shadow-lg mx-6 font-thin "
+              className=" w-full rounded-xl py-2 ring-2 ring-gray-300 focus:ring-2 shadow-lg mx-6 font-thin px-3 "
             />
             <input
               type="Email"
               placeholder="Email"
-              className="  w-1/8 py-2 ring-2 ring-gray-300 focus:ring-2 mx-2 rounded-xl shadow-lg "
+              className=" w-full rounded-xl py-2 ring-2 ring-gray-300 px-3 focus:ring-2 shadow-lg mx-6 font-thin "
             />
             <textarea
-              className=" block w-1/4 px-4 rounded-lg ring-gray-300 my-4 py-8 mx-6  shadow-lg focus-ring-2 "
+              className=" block w-full px-4 rounded-lg ring-gray-300 my-4 py-8 mx-6  shadow-lg focus-ring-2 "
               name="message"
               placeholder="Describe message"
             ></textarea>
 
             <button
-              className="w-1/8 py-2 bg-green-600 text-white my-4 px-4 mx-10 rounded-full "
               type="submit"
+              className=" w-full rounded-xl py-2 ring-2 ring-gray-300 focus:ring-2 shadow-lg mx-6 font-thin bg-green-600 text-white"
             >
               Submit Form
             </button>
@@ -64,3 +64,4 @@ const Contactentry = () => {
 };
 
 export default Contactentry;
+
